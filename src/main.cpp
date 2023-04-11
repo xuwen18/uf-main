@@ -12,7 +12,7 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 #define SERVOMIN  890 // this is the 'minimum' pulse length count (out of 4096)
 #define SERVOMAX  960 // this is the 'maximum' pulse length count (out of 4096)
 
-#define SERVO_FREQ 200 // Analog servos run at ~50 Hz updates
+#define SERVO_FREQ 200 // Analog servos run at ~200 Hz updates
 
 int reservoir = -1;
 float flowRate = 0.0;
